@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/Login.css">
+</head>
+<body>
+    <div class="header">
+        <P class="logo">Daraz.</P>
+       
+    
+        </div>
+    <div class="container">
+        
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required  placeholder="Ali Siddiqui">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="******">
+            </div>
+            <button type="submit">Login</button>
+            <a href="registration.html">Register Now</a>
+        </form>
+        
+        <div id="error-message" class="error-message"></div>
+       
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
